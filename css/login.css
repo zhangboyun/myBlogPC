@@ -1,0 +1,227 @@
+body,div,ul,ol,li,dl,dt,dd,h1,h2,h3,h4,h5,h6,p,a,img,span,b,i,em,strong,form,input,select,option,label,textarea,
+table,thead,tbody,tfoot,tr,th,td,sup,sub,s,u{
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    font-family: "Microsoft Yahei", Arial, SimSun,"宋体";
+}
+html,body{
+    overflow: hidden;
+}
+ul,ol{
+    list-style: none;
+}
+input{
+    outline: none;
+}
+img,input{
+    border: none;
+    vertical-align: middle;
+}
+a{
+    text-decoration: none;
+}
+a, a:hover, a:active, a:visited, a:target {
+    text-decoration: none;
+    color: #424242;
+}
+.clearF{
+    clear: both;
+    height: 0;
+    font-size: 0;
+    line-height: 0;
+    content: "";
+}
+/*清楚默认样式*/
+.header{
+    width: 100%;
+    height: 323px;
+    position: relative;
+    background: #00b38a;
+    z-index: -1;
+}
+.header .logo{
+    position: absolute;
+    top: 70px;
+    left: 136px;
+    display: inline-block;
+    width: 128px;
+    height: 54px;
+    background: url("../img/login/login_logo.png") left top no-repeat;
+}
+.loginBox{
+    position: relative;
+    width: 556px;
+    margin:-168px auto 0 auto;
+    padding:50px 47px 60px 57px;
+    border: 1px solid #eeeeee;
+    background-color: #fff;
+    border-radius: 2px;
+    overflow: hidden;
+}
+.loginBox .left{
+    float: left;
+    width: 300px;
+    margin-right: 46px;
+}
+.loginBox .left form{
+    display: block;
+    overflow: hidden;
+}
+.loginBox .left form .formBody{
+    float: left;
+}
+.inputItem{
+    width: 100%;
+    position: relative;
+    z-index: 1;
+}
+.inputItem input{
+    width: 272px;
+    height: 44px;
+    line-height: 1px;
+    padding: 0 13px;
+    border-radius: 2px;
+    border: 1px solid #f8f8f8;
+    background-color: #f8f8f8;
+}
+.left .input{
+    border:1px solid #00b38a;
+}
+.formBody .no2{
+    overflow: hidden;
+    margin-top: 20px;
+}
+.formBody .no2 .forget {
+    float:right;
+    color:#00b38a;
+    font-size: 14px;
+    clear:both;
+}
+.formBody .no2 .password{
+    width: 100%;
+    background-color: #00b38a;
+    color:#fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+.formBody .down{
+    margin-top: 20px;
+}
+.down h5{
+    margin-top: 0;
+    color:#777;
+    text-align: center;
+    font-size: 14px;
+    font-weight: normal;
+}
+.down h5 a{
+    font-size: 16px;
+    display: inline-block;
+    text-decoration: underline;
+    color: #00b38a;
+    padding-right: 23px;
+    background: url("../img/login/icon-arrow-right.png") right center no-repeat;
+}
+.loginBox .center{
+    float: left;
+}
+.loginBox .center img{
+    width: 14px;
+    height: 253px;
+}
+.loginBox .right{
+    float:left;
+    width: 150px;
+    margin-left: 46px;
+    color:#777;
+}
+.loginBox .right h5{
+    margin-top: 0;
+    font-size: 14px;
+    font-weight: normal;
+    color:#777;
+}
+.right ul{
+    margin-top: 10px;
+    overflow: hidden;
+}
+.right ul li{
+    float: left;
+    width: 44px;
+    height: 43px;
+}
+.right ul .noo1{
+    margin-right: 9px;
+}
+.right ul li .vender{
+    display: inline-block;
+    width: 44px;
+    height: 43px;
+    background-position: left top;
+    background-repeat: no-repeat;
+}
+.right ul li .sina{
+    background-image: url("../img/login/icon-sina.png");
+}
+.right ul li .tecent{
+    background-image: url("../img/login/icon-tecent.png");
+}
+
+.right ul li .weichat{
+    background-image: url("../img/login/icon-wechat.png");
+}
+.right .down{
+    margin-top: 45px;
+}
+.right .down img{
+    width: 124px;
+    height: 124px;
+}
+.right .down p{
+    display: inline-block;
+    padding-left:6px;
+    font-size: 12px;
+}
+.footer h4{
+    margin-top: 50px;
+    text-align: center;
+    font-weight: normal;
+    color:#d1d1d1;
+    font-size: 16px;
+}
+.big{
+    position: absolute;
+    width: 0;
+    border-width: 8px;
+    border-style: solid;
+    border-color: #f1f1f1 #fff #fff #f1f1f1;
+    border-radius: 3px 0 0;
+    top:511px;
+    left:999px;
+    z-index: 2;
+}
+.small{
+    position: absolute;
+    width: 0;
+    left: 995px;
+    top:514px;
+    border-width: 12px 12px 0 0;
+    border-style: solid;
+    border-color: #dedede;
+    border-radius: 3px 0 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

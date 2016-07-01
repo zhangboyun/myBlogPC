@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="css/login.css" type="text/css"/>
+</head>
+<body>
+<div class="header">
+    <a href="" class="logo"></a>
+</div>
+<div class="loginBox">
+    <div class="left" id="left">
+        <form>
+            <div class="formBody">
+                <div class="inputItem">
+                    <input type="text" placeholder="请输入已验证手机/邮箱"/>
+                </div>
+                <div class="inputItem no2">
+                    <input type="text" placeholder="请输入密码"/>
+                </div>
+                <div class="inputItem no2">
+                    <a href="" class="forget">忘记密码？</a>
+                </div>
+                <div class="inputItem no2">
+                    <input class="password" type="submit" value="登 录"/>
+                </div>
+                <div class="down">
+                    <h5>还没有拉勾账号?
+                        <a href="">立即注册</a>
+                    </h5>
+                </div>
+            </div>
+        </form>
+    </div>
+    <div class="center">
+        <img src="img/login/divider-login.jpg" alt=""/>
+    </div>
+    <div class="right">
+        <h5>使用以下账号直接注册</h5>
+        <ul>
+            <li class="noo1"><a href="" class="vender sina"></a></li>
+            <li class="noo1"><a href="" class="vender tecent" ></a></li>
+            <li><a href="" class="vender weichat"></a></li>
+        </ul>
+        <div class="down">
+            <img src="img/login/qrcode.jpg" alt=""/>
+            <p>[ 扫码下载拉勾APP ]</p>
+        </div>
+    </div>
+</div>
+<span class="small"></span>
+<span class="big"></span>
+<div class="footer">
+    <h4>— 专注互联网职业机会 —</h4>
+</div>
+</body>
+</html>
+<script src="js/utils.js" type="text/javascript"></script>
+<script>
+    var body=document.body;
+    var left=document.getElementById("left");
+    var inputs=left.getElementsByTagName("input");
+    var ary=utils.listToArray(inputs);
+    ary.pop();
+    console.log(ary);
+    for(var i=0;i<ary.length;i++){
+        ary[i].index=i;
+        ary[i].onfocus=function(){
+            this.className="input";
+        };
+        ary[i].onblur=function(){
+            this.className="";
+        };
+    }
+
+</script>
